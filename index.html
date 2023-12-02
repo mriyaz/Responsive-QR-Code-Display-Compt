@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /* Resetting default margins and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Including the Outfit font from Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+    /* Setting up body and font defaults */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(212, 45%, 89%);
+      min-height: 100vh;
+      font-family: 'Outfit', sans-serif;
+      color: hsl(218, 44%, 22%);
+      font-size: 15px;
+    }
+
+    /* Card styling */
+    .card {
+      background-color: hsl(0, 0%, 100%);
+      padding: 20px;
+      max-width: 90%;
+      margin: auto;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* QR Code image */
+    .qr-code {
+      max-width: 100%; 
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    /* Heading styling */
+    h3 {
+      color: hsl(218, 44%, 22%);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    /* Paragraph styling */
+    p {
+      margin-bottom: 20px;
+      color: hsl(220, 15%, 55%);
+    }
+
+    @media (min-width:768px) {
+      .card {
+        width: 350px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img src="/images/image-qr-code.png" class="qr-code" />
+    <h3>Improve your front-end skills by building projects</h3>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+
+</body>
+
+</html>
