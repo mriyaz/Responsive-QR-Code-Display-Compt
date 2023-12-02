@@ -14,7 +14,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://mriyaz.github.io/Responsive-QR-Code-Display-Compt/)
+- Live Site URL: [Responsive QR Code Component](https://mriyaz.github.io/Responsive-QR-Code-Display-Compt/)
 
 ## My process
 
